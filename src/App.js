@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<AddPhoto/>}/>
-        <Route path='search/' element={<SearchPhoto/>}/>
-        <Route path='delete/' element={<DeletePhoto/>}/>
-        <Route path='view/' element={<ViewAll/>}/>
+        <Route path='/search' element={<SearchPhoto/>}/>
+        <Route path='/delete' element={<DeletePhoto/>}/>
+        <Route path='/view' element={<ViewAll/>}/>
       </Routes>
     </BrowserRouter>
   );
